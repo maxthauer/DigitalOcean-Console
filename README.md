@@ -1,4 +1,4 @@
-#DigitalOcean-Manger
+#DigitalOcean-Console
 
 ###This is a DigitalOcean manager written using Python's requests module.
 
