@@ -5,7 +5,9 @@
 ######Required
 
 *pip3 install requests
+
 *pip3 install prettytable
+
 *DigitalOcean API token with write access
 
 ######Usage:
