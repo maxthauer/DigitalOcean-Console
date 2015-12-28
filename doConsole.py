@@ -221,8 +221,6 @@ def newDroplet():
 	dropletCreateUrl = requests.post('https://api.digitalocean.com/v2/droplets', 
 		headers={'Content-Type': 'application/json','Authorization': 'Bearer '+token}, 
 		data=json.dumps(payload))
-	print (payload)
-	print (dropletCreateUrl.text)
 	if dropletCreateUrl.status_code == 202:
 		print ("Now creating droplet with the following parameters\n")
 		data = dropletCreateUrl.json()
